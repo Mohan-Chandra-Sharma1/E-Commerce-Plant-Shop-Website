@@ -51,4 +51,3 @@
 ---
 
 Made with ❤️ by Mohan Chandra Sharma  
-Ready for production, ready to impress!
