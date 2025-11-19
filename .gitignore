@@ -1,0 +1,25 @@
+- node_modules/
+- .next/
+- *.log
+- *.tmp
+
+
+echo "node_modules/" >> .gitignore
+echo ".next/" >> .gitignore
+echo "out/" >> .gitignore  
+echo ".vercel/" >> .gitignore
+echo ".env.local" >> .gitignore
+
+# Next.js standard .gitignore
+echo "/.next/" >> .gitignore
+echo "/out/" >> .gitignore
+echo "/build/" >> .gitignore
+echo "next-env.d.ts" >> .gitignore
+
+# 2. Clean & fresh commit
+git rm -r --cached .
+git add .
+git commit -m "chore: proper gitignore + clean commit"
+
+# 3. push 
+git push
