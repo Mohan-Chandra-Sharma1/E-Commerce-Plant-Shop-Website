@@ -16,6 +16,7 @@
 > First Contentful Paint: **0.3s** | Largest Contentful Paint: **0.5s** | Cumulative Layout Shift: **0** | Total Blocking Time: **0ms**
 
 ![Lighthouse Report](https://github.com/user-attachments/assets/bad9790f-8067-4c80-8a76-bbde12b02688)
+![Lighthouse Calculator Report](https://github.com/user-attachments/assets/72e7e83f-21e8-4e58-8549-507feeb41b70)
 
 ## 🎨 Features
 
@@ -43,11 +44,9 @@
 - All static assets optimized
 - Production-ready code (no "latest" dependencies)
 
-## 📸 Screenshots
 
-![Hero Desktop](https://github.com/user-attachments/assets/75e584c4-9c40-4fdf-928b-3be474487153)
-![Categories Section](https://github.com/user-attachments/assets/72e7e83f-21e8-4e58-8549-507feeb41b70)
-![Full Page](https://github.com/user-attachments/assets/ad626350-43f0-4c60-9824-c9e248556f81)
+
+![Website Desktop](https://github.com/user-attachments/assets/d4617e16-8455-4b6c-80fb-975b89969a8b)
 
 ---
 
