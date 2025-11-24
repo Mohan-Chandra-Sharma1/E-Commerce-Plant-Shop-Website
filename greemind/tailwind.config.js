@@ -10,7 +10,9 @@ module.exports = {
         cream: '#f1faee'
       },
       fontFamily: {
-        inter: ['var(--font-inter)']
+        inter: ['var(--font-inter)'],
+        poppins: ['var(--font-poppins)', 'sans-serif'],
+        quella: ['Quella', 'serif']
       },
       boxShadow: {
         card: '0 8px 24px rgba(0,0,0,0.08)'

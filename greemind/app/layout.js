@@ -1,4 +1,4 @@
-import { Inter } from 'next/font/google'
+import { Inter, Poppins } from 'next/font/google'
 import './globals.css'
 import { CartProvider } from '../components/CartContext'
 
@@ -31,10 +31,21 @@ export const metadata = {
 }
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter', display: 'swap' })
+const poppins = Poppins({
+  weight: ['400', '500', '600', '700', '800'],
+  subsets: ['latin'],
+  variable: '--font-poppins',
+  display: 'swap'
+})
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={inter.variable}>
+    <html lang="en" className={`${inter.variable} ${poppins.variable}`}>
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Quella&display=swap" rel="stylesheet" />
+      </head>
       <body>
         <CartProvider>{children}</CartProvider>
       </body>

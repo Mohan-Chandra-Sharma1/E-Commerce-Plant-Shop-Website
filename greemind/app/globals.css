@@ -6,7 +6,8 @@
   --font-inter: 'Inter';
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -21,7 +22,7 @@ body {
 }
 
 .heading-hero {
-  @apply font-bold tracking-tight text-black leading-[1.05] text-[36px] sm:text-[48px] md:text-[64px];
+  @apply font-bold tracking-tight text-[#000000] leading-[1.05] text-[64px] sm:text-[64px] md:text-[64px];
 }
 
 .rounded-hero {

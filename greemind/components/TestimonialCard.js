@@ -13,7 +13,7 @@ export default function TestimonialCard({ text, name, role, rating, avatar, clas
             <Image src={avatar} alt={`${name} avatar`} fill sizes="200px" loading="lazy" className="object-cover" />
           </div>
           <div>
-            <div className="font-semibold text-navy">{name}</div>
+            <div className="font-poppins font-bold text-[18px] leading-none text-[#1E1E1E]">{name}</div>
             <div className="text-gray-500 text-sm">{role}</div>
           </div>
         </div>
@@ -50,7 +50,7 @@ export function TestimonialsCarousel({ items = [], interval = 4000, index: contr
   )
 }
 
-export function TestimonialsIndicators({ items = [], index = 0, setIndex = () => {} }) {
+export function TestimonialsIndicators({ items = [], index = 0, setIndex = () => { } }) {
   return (
     <div className="flex items-center gap-3" aria-label="Slide indicators">
       {items.map((_, i) => (
